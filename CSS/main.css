@@ -1,0 +1,17 @@
+#board {
+    position: relative;
+    background-color: green ;
+    height: 100vh;
+    background-image: url(../Image/matrix-wallpaper-animated-gif-5.gif);
+}
+
+.player {
+    position:absolute;
+    background-image: url(../Image/f1.png);
+
+}
+
+.opponent {
+    position: relative;
+    background-color: aqua;
+}
