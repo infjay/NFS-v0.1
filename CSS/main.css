@@ -7,11 +7,51 @@
 
 .player {
     position:absolute;
-    background-image: url(../Image/f1.png);
-
+    background-image: url(../Image/Space\ ship.png);
+    background-position:center;
 }
 
 .opponent {
-    position: relative;
-    background-color: aqua;
+    position: absolute;
+    background-image: url(../Image/enemy.png);
+    background-position:center; 
+    
 }
+
+#button {
+    background-color:black;
+    color: aqua;
+    font-family:cursive;
+    font-size: 20px;
+    border-radius: 20%;
+    margin-left: 35%;
+    margin-top: 3%;
+    position: fixed;
+    border-style: solid;
+    padding: 8px;
+    border-color: greenyellow;
+}
+
+.bullet {
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
+
+
+#score{
+    background-color: black;
+    border: 2px;
+    border-radius: 30%;
+    border-color:red;
+    border-style: double;
+    font-family:cursive;
+    color: bisque;
+    font-size: 20px;
+    border-radius: 20%;
+    margin-left: 40%;
+    margin-top: 8%;
+    position: fixed;
+    padding: 10px;
+    }
